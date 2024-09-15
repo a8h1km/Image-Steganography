@@ -92,7 +92,7 @@ const Decode = () => {
                         </label>
                     </div>
                     {showDecode && (<button className='bg-gray-600 hover:bg-gray-800 transition-all p-4 mx-72 border rounded-xl mt-8 mb-8' type="submit">Decode</button>)}
-                    {loading && <div className='mt-8'>
+                    {loading && <div className='my-8'>
                         <svg className="animate-spin h-16 w-16" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                             <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                             <path className="opacity-75" fill="currentColor"
