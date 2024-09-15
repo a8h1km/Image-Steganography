@@ -79,7 +79,7 @@ const Encode = () => {
         formData.append('text', text);
         setEncodedImage(null);
 
-        const response = await fetch('http://localhost:8000/encode-image', {
+        const response = await fetch('https://stegserver-ebmc9j0kk-a8h1kms-projects.vercel.app/encode-image', {
             method: 'POST',
             body: formData,
         });

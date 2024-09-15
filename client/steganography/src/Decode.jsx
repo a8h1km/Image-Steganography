@@ -55,7 +55,7 @@ const Decode = () => {
         const formData = new FormData()
         formData.append('image', image)
 
-        const response = await fetch('http://localhost:8000/decode-image', {
+        const response = await fetch('https://stegserver-ebmc9j0kk-a8h1kms-projects.vercel.app/decode-image', {
             method: 'POST',
             body: formData,
         })
